@@ -32,6 +32,13 @@ form {
     align-items: center;
 }
 
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    margin-left: 50px;
+}
+
 .personal-info {
     display: flex;
     flex-direction: row;

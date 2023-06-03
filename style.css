@@ -1,0 +1,104 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.left, .right, form {
+    margin: 0px 40px 20px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left {
+    flex-grow: 2;
+}
+
+.right {
+    flex-grow: 3;
+}
+
+form {
+    align-items: center;
+}
+
+.personal-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+i {
+    font-size: 20px;
+    color: #ff004f;
+    margin: 0px 10px 0px 30px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin: 30px;
+}
+
+p {
+    font-size: large;
+    font-weight: 500;
+    color: white;
+}
+
+#social-media-icons i {
+    color: gray;
+    font-size: 30px;
+    margin: 30px 15px 30px 15px;
+    transition: transform 0.5s;
+}
+
+#social-media-icons i:hover {
+    transform: translateY(-5px);
+    color: #ff004f;
+}
+
+button {
+    font-size: large;
+    padding: 10px;
+    width: 200px;
+    align-self: center;
+    margin: 30px;
+    background-color: #ff004f;
+    color: white;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #a50034;
+}
+
+button:active {
+    background-color: #ff004f;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: large;
+    margin: 10px;
+    background-color: rgb(24, 23, 23);
+    color: white;
+    border-radius: 20px;
+}
+
+textarea {
+    height: 200px;
+    resize: none;
+}
